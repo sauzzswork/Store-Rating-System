@@ -1,0 +1,94 @@
+.store-list-container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+.search-form {
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+.search-form input {
+flex: 1;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+.search-form button {
+padding: 10px 20px;
+background: #667eea;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.data-table {
+width: 100%;
+border-collapse: collapse;
+background: white;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.data-table th,
+.data-table td {
+padding: 12px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+.data-table th {
+background: #f8f9fa;
+font-weight: 600;
+}
+.btn-small {
+padding: 6px 12px;
+background: #667eea;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 14px;
+}
+.modal-overlay {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba(0, 0, 0, 0.5);
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1000;
+}
+.modal {
+background: white;
+padding: 30px;
+border-radius: 10px;
+min-width: 400px;
+}
+.star-rating {
+    display: flex;
+gap: 10px;
+font-size: 40px;
+margin: 20px 0;
+}
+.star {
+cursor: pointer;
+color: #ddd;
+}
+.star.active {
+color: #ffc107;
+}
+.modal-actions {
+display: flex;
+gap: 10px;
+margin-top: 20px;
+}
+.btn-secondary {
+flex: 1;
+padding: 10px;
+background: #6c757d;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
